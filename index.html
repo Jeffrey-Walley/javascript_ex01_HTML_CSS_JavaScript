@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ghost Gramps is Real</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="header">
+        <ul>
+            <li><a class="home" href="#top">Ghost Gramps</a></li>
+            <li><a class="pagelink" href="#gramps-rotation-station">Ghost Gramps Spin</a></li>
+            <li><a class="pagelink" href="#hide-a-gramps">Hide Ghost Gramps</a></li>
+            <li><a class="pagelink" href="#gramps-a-gram">Gramps-a-Gram</a></li>
+        </ul>
+    </nav>
+
+    <!-- Rotation Station Section -->
+    <div class="banner" id="gramps-rotation-station">
+        <h1>Ghost Gramps Spin</h1>
+        <img id="small-gritty" src="./imgs/ghostGramps.png" alt="Gramps face PNG" />
+        <p>Rotate Ghost Gramps just a litte at a time so he doesn't get motion sick!</p>
+        <button type="button" id="rotate-left-button">Rotate Left</button>
+        <button type="button" id="rotate-right-button">Rotate Right</button>
+    </div>
+
+    <!-- Hide and Go Section -->
+    <div id="hide-a-gramps">
+        <h2>Hide a Ghost Gramps</h2>
+        <p>Ghost Gramps is tricky, every time you think you got him, <strong>he dissapears again</strong>.</p>
+        <p><em>Did you know that if you hit the "SpaceBar" the page will scroll down? So Creepy!!!</em></p>
+        <div class="border" id="gritty-border">
+            <img class="" id="toggle-gritty" src="./imgs/ghostGramps.png" alt="Gramps face PNG" />
+        </div>
+    </div>
+
+    <!-- Gritter section -->
+    <div class="gritter-card">
+        <span class="gritter bold" id="gramps-a-gram">Gritter</span>
+        <p class="subheader">Post a Message below on this site, it's the only site Ghost Gramps knows how to use.</p>
+        <form id="gritter-form">
+            <input type='text' name='greet' />
+            <input type="submit" value="Submit">
+        </form>
+        <div id="greets">
+            <ul>
+                <li>
+                    <div class='avatar'></div><span>Hey there, it's Ghost Gramps, can you see me?</span>
+                </li>
+                <li>
+                    <div class='avatar'></div><span>Change used to be good when it was worth changing, this new change isn't any good.</span>
+                </li>
+                <li>
+                    <div class='avatar'></div><span>Burp.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
